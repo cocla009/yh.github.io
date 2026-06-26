@@ -1,0 +1,64 @@
+@import 'constants.styl';
+
+// =====================================================================
+// kira 增强美化：代码块 Mac 风格窗口栏 + 语言角标
+// =====================================================================
+
+// ---------- 代码块 Mac 风格窗口栏 + 语言角标 ----------
+.kira-article figure.highlight,
+article figure.highlight {
+	position: relative;
+	padding-top: 36px !important;
+	border-radius: $radius;
+
+	// 顶部窗口栏背景
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0; left: 0; right: 0;
+		height: 36px;
+		background: #21252b;
+		border-radius: $radius $radius 0 0;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+	}
+
+	// 三色圆点
+	&::after {
+		content: '';
+		position: absolute;
+		top: 13px; left: 14px;
+		width: 11px; height: 11px;
+		border-radius: 50%;
+		background: #ff5f56;
+		box-shadow: 18px 0 #ffbd2e, 36px 0 #27c93f;
+		z-index: 2;
+	}
+}
+
+// 语言角标（取 figure 第二个 class，如 "highlight bash" -> bash）
+.kira-article figure.highlight,
+article figure.highlight {
+	.kira-code-lang {
+		position: absolute;
+		top: 0;
+		right: 52px;
+		height: 36px;
+		line-height: 36px;
+		font-size: 12px;
+		letter-spacing: 1px;
+		color: #8b94a3;
+		text-transform: uppercase;
+		font-family: Consolas, monospace;
+		z-index: 2;
+		pointer-events: none;
+	}
+
+	// 复制按钮上移到窗口栏内并垂直居中，默认半显（hover 全显）
+	& > .kira-codeblock-copy-wrapper {
+		top: 4px !important;
+		width: 28px !important;
+		height: 28px !important;
+		background-color: transparent !important;
+		opacity: 0.5;
+	}
+}
