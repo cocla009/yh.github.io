@@ -83,7 +83,7 @@
   height: 90px;
 }
 .kira-banner .kira-banner-wave svg path {
-  fill: #1a2332;
+  fill: #f0f4f8;
 }
 body.kira-home {
   position: relative;
@@ -96,7 +96,7 @@ body.kira-home .kira-background {
 body.kira-home .kira-body {
   position: relative;
   z-index: 2;
-  background: #1a2332;
+  background: #f0f4f8;
   min-height: 60vh;
 }
 .kira-content .kira-main-content .kira-posts .kira-post {

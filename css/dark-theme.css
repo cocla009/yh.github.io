@@ -1,26 +1,26 @@
 body {
-  background: #1a2332;
+  background: #f0f4f8;
 }
 .kira-body {
-  background: #1a2332;
+  background: #f0f4f8;
 }
 .kira-background {
   opacity: 0.06;
 }
 .kira-content {
-  box-shadow: 0 0 2rem rgba(0,0,0,0.5);
+  box-shadow: 0 0 2rem rgba(0,0,0,0.08);
 }
 .kira-content .kira-main-content {
-  background-color: #243040;
-  color: #c8d6e5;
+  background-color: #fff;
+  color: #2c3e50;
 }
 .kira-content .kira-main-content .kira-page-nav {
-  background-color: #1a2a3a;
-  color: #8a9bb5;
+  background-color: #f5f8fb;
+  color: #6b8299;
 }
 .kira-content .kira-main-content .kira-page-nav .page-number {
-  color: #8a9bb5;
-  background: #1a2a3a;
+  color: #6b8299;
+  background: #f5f8fb;
 }
 .kira-content .kira-main-content .kira-page-nav .current {
   color: #fff;
@@ -28,43 +28,43 @@ body {
   box-shadow: 0 4px 14px rgba(91,160,240,0.5);
 }
 .kira-content .kira-main-content .kira-page-nav a:not(.current):hover {
-  background-color: rgba(255,255,255,0.06);
+  background-color: rgba(91,160,240,0.08);
 }
 .kira-content .kira-main-content .kira-page-nav > * {
-  color: #8a9bb5;
+  color: #6b8299;
 }
 .kira-content .kira-main-content .kira-posts .kira-post {
-  background: #1e3045;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
 }
 .kira-content .kira-main-content .kira-posts .kira-post:hover {
-  background: #254058;
+  background: #f5f8fb;
   transform: translateY(-6px);
-  box-shadow: 0 16px 36px rgba(91,141,170,0.18);
+  box-shadow: 0 12px 32px rgba(91,160,240,0.15);
 }
 .kira-content .kira-main-content .kira-posts .kira-post article {
-  color: #b0c4d8;
+  color: #6b8299;
 }
 .kira-sidebar {
-  background: #1e2d3d;
+  background: #fff;
 }
 .kira-sidebar .kira-avatar {
-  box-shadow: 0 0 0 4px #1e2d3d, 0 0 0 7px rgba(91,160,240,0.35), 0 10px 28px rgba(91,160,240,0.25);
+  box-shadow: 0 0 0 4px #fff, 0 0 0 7px rgba(91,160,240,0.3), 0 10px 28px rgba(91,160,240,0.18);
 }
 .kira-sidebar .kira-avatar:hover img {
   transform: rotate(360deg);
 }
 .kira-sidebar .kira-count div {
-  color: #8a9bb5;
+  color: #6b8299;
 }
 .kira-sidebar .kira-count div span {
-  color: #c8d6e5;
+  color: #2c3e50;
 }
 .kira-sidebar .kira-list-item {
-  color: #8a9bb5;
+  color: #6b8299;
 }
 .kira-sidebar .kira-list-item:hover {
-  background: rgba(255,255,255,0.06);
+  background: rgba(91,160,240,0.06);
 }
 .kira-sidebar .kira-list-item.true {
   background: linear-gradient(135deg, #5ba0f0, #a0dcf8);
@@ -75,34 +75,34 @@ body {
   color: #fff;
 }
 .kira-sidebar .kira-list-item i {
-  color: #8a9bb5;
+  color: #6b8299;
 }
 .kira-sidebar .kira-social a {
-  color: #8a9bb5;
+  color: #6b8299;
 }
 .kira-sidebar .kira-widget-wrap {
-  background-color: #1a2a3a;
-  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+  background-color: #f5f8fb;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.04);
 }
 .kira-sidebar .kira-widget-wrap .kira-widget-title {
   color: #5ba0f0;
 }
 .kira-sidebar .kira-widget-wrap .kira-widget ul li a {
-  color: #8a9bb5;
+  color: #6b8299;
 }
 .kira-sidebar .kira-widget-wrap .category-list-count,
 .kira-sidebar .kira-widget-wrap .archive-list-count {
-  background-color: rgba(91,160,240,0.15);
+  background-color: rgba(91,160,240,0.12);
   color: #5ba0f0;
 }
 .kira-sidebar .kira-copyright {
-  color: #6a7d95;
+  color: #95aabb;
 }
 .kira-sidebar .kira-copyright a {
   color: #5ba0f0;
 }
 .kira-main-content article {
-  color: #c8d6e5;
+  color: #2c3e50;
 }
 .kira-main-content article h1,
 .kira-main-content article h2,
@@ -110,89 +110,90 @@ body {
 .kira-main-content article h4,
 .kira-main-content article h5,
 .kira-main-content article h6 {
-  color: #e8edf2;
+  color: #1a2a3a;
 }
 .kira-main-content article h2::before {
-  border-bottom-color: #2a3a50;
+  border-bottom-color: #e8ecf0;
 }
 .kira-main-content article blockquote {
-  background: #1a2e42;
-  color: #a0b5c8;
-  border-color: #2a4058;
+  background: #f0f4f8;
+  color: #6b8299;
+  border-color: #dde4ed;
 }
 .kira-main-content article blockquote::before,
 .kira-main-content article blockquote::after {
-  color: #5a7d95;
+  color: #bcc8d6;
 }
 .kira-main-content article code {
-  background: #162433;
+  background: #eef3f8;
   color: #5ba0f0;
 }
 .kira-main-content article hr {
-  border-top-color: #2a3a50;
+  border-top-color: #e8ecf2;
 }
 .kira-main-content article > table {
-  color: #a0b5c8;
+  color: #2c3e50;
 }
 .kira-main-content article > table thead {
-  border-bottom-color: #2a3a50;
-  background-color: #1a2e42;
+  border-bottom-color: #e0e6ed;
+  background-color: #f5f7fa;
 }
 .kira-main-content article > table thead tr {
-  background-color: #1a2e42;
+  background-color: #f5f7fa;
 }
 .kira-main-content article > table th,
 .kira-main-content article > table td {
-  border-color: #2a3a50;
+  border-color: #e8ecf2;
 }
 .kira-main-content article > table tr {
-  background-color: #243040;
+  background-color: #fff;
 }
 .kira-main-content article > table tr:nth-child(2n) {
-  background-color: #1e3045;
+  background-color: #f8fafc;
 }
 .kira-main-content article ul li::after {
-  background: rgba(91,160,240,0.2);
+  background: rgba(91,160,240,0.15);
 }
 .kira-main-content article ul li::before {
-  border-color: #243040;
+  border-color: #fff;
 }
 .kira-main-content article > ol > li::before {
-  background-color: rgba(91,160,240,0.15);
+  background-color: rgba(91,160,240,0.1);
   color: #5ba0f0;
 }
 .kira-post .kira-post-cover {
-  background-color: #1a2e42;
+  background-color: #e8ecf2;
 }
 .kira-post .kira-post-copyright {
-  color: #b0c4d8;
-  background-color: #1a2e42;
+  color: #6b8299;
+  background-color: #f0f4f8;
 }
 .kira-post .kira-post-copyright a {
   color: #5ba0f0;
 }
 .kira-post .kira-post-nav {
-  background-color: #243040;
+  background-color: #fff;
 }
 .kira-post .kira-post-footer {
-  background-color: #1a2e42;
+  background-color: #f5f8fb;
 }
 .kira-right-column {
   width: 200px;
 }
 .kira-right-column .kira-backtotop {
-  color: #8a9bb5;
-  background-color: rgba(30,45,61,0.7);
+  color: #6b8299;
+  background-color: rgba(255,255,255,0.85);
 }
 .kira-right-column .kira-backtotop:hover {
-  background-color: rgba(30,45,61,0.95);
+  background-color: rgba(255,255,255,0.98);
 }
 .kira-right-column .kira-right-widget {
-  background: #1e2d3d;
+  background: #fff;
   border-radius: 13px;
   margin: 10px;
   padding: 16px;
-  color: #8a9bb5;
+  color: #6b8299;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
 }
 .kira-right-column .kira-right-widget h4 {
   color: #5ba0f0;
@@ -200,7 +201,7 @@ body {
   margin: 0 0 10px;
 }
 .kira-right-column .kira-right-widget a {
-  color: #8a9bb5;
+  color: #6b8299;
 }
 .kira-right-column .kira-right-widget a:hover {
   color: #5ba0f0;
@@ -212,7 +213,7 @@ body {
 }
 .kira-right-column .kira-right-widget ul li {
   padding: 6px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
+  border-bottom: 1px solid #eef2f6;
   font-size: 0.9em;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -222,25 +223,26 @@ body {
   border-bottom: none;
 }
 .kira-archives .archive-item .archive-date {
-  color: #8a9bb5;
+  color: #6b8299;
 }
 .kira-archives .categories a {
-  background: #1e2d3d;
-  color: #8a9bb5;
+  background: #f5f8fb;
+  color: #6b8299;
 }
 .kira-archives .categories a:hover {
-  background: #254058;
-  color: #c8d6e5;
+  background: #f5f8fb;
+  color: #2c3e50;
 }
 .kira-friends .kira-friend-card {
-  background: #1e2d3d;
-  color: #c8d6e5;
+  background: #fff;
+  color: #2c3e50;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
 }
 .kira-friends .kira-friend-card a {
-  color: #c8d6e5;
+  color: #2c3e50;
 }
 .kira-friends .kira-friend-card:hover {
-  background: #254058;
+  background: #f5f8fb;
 }
 .kira-posts .kira-post {
   animation: kira-stagger-fade 0.5s ease backwards;
@@ -280,15 +282,15 @@ body {
 }
 @media (max-width: 1000px) {
   body .kira-body .kira-sidebar {
-    background-color: #1e2d3d;
+    background-color: #fff;
   }
   body .kira-body .kira-sidebar.show {
-    background-color: #1e2d3d;
+    background-color: #fff;
   }
 }
 @media (max-width: 1180px) {
   .kira-right-column .kira-backtotop {
-    background-color: rgba(30,45,61,0.9);
+    background-color: rgba(255,255,255,0.9);
   }
 }
 @-moz-keyframes kira-stagger-fade {
