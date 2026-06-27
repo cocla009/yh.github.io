@@ -87,7 +87,7 @@
   overflow: hidden;
 }
 .kira-post .kira-post-copyright a {
-  color: #5ba0f0;
+  color: #5b8def;
 }
 .kira-post .kira-post-copyright::after {
   position: absolute;
@@ -115,13 +115,13 @@
 .kira-post .kira-post-nav .post-nav div a {
   transition: 0.2s;
   padding: 0.2em;
-  color: #5ba0f0;
-  border-bottom: 1px solid rgba(91,160,240,0.85);
+  color: #5b8def;
+  border-bottom: 1px solid rgba(91,141,239,0.85);
 }
 .kira-post .kira-post-nav .post-nav div a:hover {
-  text-shadow: 0px 0px 5px rgba(91,160,240,0.25);
+  text-shadow: 0px 0px 5px rgba(91,141,239,0.25);
   text-decoration: none;
-  border-bottom: 1px solid #5ba0f0;
+  border-bottom: 1px solid #5b8def;
 }
 .kira-post .kira-post-footer {
   background-color: #f5f6f5;

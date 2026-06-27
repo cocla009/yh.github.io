@@ -11,7 +11,7 @@
 }
 .kira-sidebar .kira-avatar {
   margin: 25px;
-  box-shadow: 0 0 2rem rgba(91,160,240,0.2);
+  box-shadow: 0 0 2rem rgba(91,141,239,0.2);
 }
 .kira-sidebar .kira-avatar a {
   padding-bottom: 100%;
@@ -56,8 +56,8 @@
 }
 .kira-sidebar .kira-list-item.true {
   opacity: 0.9;
-  background: #5ba0f0;
-  box-shadow: 0 2px 12px #5ba0f0;
+  background: #5b8def;
+  box-shadow: 0 2px 12px #5b8def;
 }
 .kira-sidebar .kira-list-item.true,
 .kira-sidebar .kira-list-item.true i {
@@ -109,7 +109,7 @@
   font-weight: 400;
   padding: 24px 18px 12px;
   margin: 0;
-  color: #5ba0f0;
+  color: #5b8def;
 }
 .kira-sidebar .kira-widget-wrap .kira-widget ul {
   list-style-type: none;
@@ -132,14 +132,14 @@
 }
 .kira-sidebar .kira-widget-wrap .kira-widget .category-list-count,
 .kira-sidebar .kira-widget-wrap .kira-widget .archive-list-count {
-  background-color: rgba(91,160,240,0.1);
+  background-color: rgba(91,141,239,0.1);
   display: inline-block;
   width: 26px;
   height: 26px;
   line-height: 26px;
   text-align: center;
   border-radius: 100%;
-  color: #5ba0f0;
+  color: #5b8def;
   position: absolute;
   right: 18px;
   top: 10px;
@@ -170,7 +170,7 @@
   font-size: 12px;
 }
 .kira-sidebar .kira-copyright a {
-  color: #5ba0f0;
+  color: #5b8def;
 }
 .kira-sidebar::-webkit-scrollbar {
   display: none;
