@@ -1,0 +1,54 @@
+.kira-article figure.highlight,
+article figure.highlight {
+  position: relative;
+  padding-top: 36px !important;
+  border-radius: 13px;
+}
+.kira-article figure.highlight::before,
+article figure.highlight::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 36px;
+  background: #21252b;
+  border-radius: 13px 13px 0 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.kira-article figure.highlight::after,
+article figure.highlight::after {
+  content: '';
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #ff5f56;
+  box-shadow: 18px 0 #ffbd2e, 36px 0 #27c93f;
+  z-index: 2;
+}
+.kira-article figure.highlight .kira-code-lang,
+article figure.highlight .kira-code-lang {
+  position: absolute;
+  top: 0;
+  right: 52px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #8b94a3;
+  text-transform: uppercase;
+  font-family: Consolas, monospace;
+  z-index: 2;
+  pointer-events: none;
+}
+.kira-article figure.highlight > .kira-codeblock-copy-wrapper,
+article figure.highlight > .kira-codeblock-copy-wrapper {
+  top: 4px !important;
+  width: 28px !important;
+  height: 28px !important;
+  background-color: transparent !important;
+  opacity: 0.5;
+}

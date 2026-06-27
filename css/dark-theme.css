@@ -1,0 +1,366 @@
+body {
+  background: #1a2332;
+}
+.kira-body {
+  background: #1a2332;
+}
+.kira-background {
+  opacity: 0.06;
+}
+.kira-header {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  background: #e8ddd9;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.kira-header img {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+#kira-top-header {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0;
+  top: -2vh;
+}
+.kira-content {
+  box-shadow: 0 0 2rem rgba(0,0,0,0.5);
+}
+.kira-content .kira-main-content {
+  background-color: #243040;
+  color: #c8d6e5;
+}
+.kira-content .kira-main-content .kira-page-nav {
+  background-color: #1a2a3a;
+  color: #8a9bb5;
+}
+.kira-content .kira-main-content .kira-page-nav .page-number {
+  color: #8a9bb5;
+  background: #1a2a3a;
+}
+.kira-content .kira-main-content .kira-page-nav .current {
+  color: #fff;
+  background: linear-gradient(135deg, #5b8daa, #7ea5be);
+  box-shadow: 0 4px 14px rgba(91,141,170,0.5);
+}
+.kira-content .kira-main-content .kira-page-nav a:not(.current):hover {
+  background-color: rgba(255,255,255,0.06);
+}
+.kira-content .kira-main-content .kira-page-nav > * {
+  color: #8a9bb5;
+}
+.kira-content .kira-main-content .kira-posts .kira-post {
+  background: #1e3045;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+.kira-content .kira-main-content .kira-posts .kira-post:hover {
+  background: #254058;
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(91,141,170,0.18);
+}
+.kira-content .kira-main-content .kira-posts .kira-post article {
+  color: #b0c4d8;
+}
+.kira-sidebar {
+  background: #1e2d3d;
+}
+.kira-sidebar .kira-avatar {
+  box-shadow: 0 0 0 4px #1e2d3d, 0 0 0 7px rgba(91,141,170,0.35), 0 10px 28px rgba(91,141,170,0.25);
+}
+.kira-sidebar .kira-avatar:hover img {
+  transform: rotate(360deg);
+}
+.kira-sidebar .kira-count div {
+  color: #8a9bb5;
+}
+.kira-sidebar .kira-count div span {
+  color: #c8d6e5;
+}
+.kira-sidebar .kira-list-item {
+  color: #8a9bb5;
+}
+.kira-sidebar .kira-list-item:hover {
+  background: rgba(255,255,255,0.06);
+}
+.kira-sidebar .kira-list-item.true {
+  background: linear-gradient(135deg, #5b8daa, #7ea5be);
+  box-shadow: 0 4px 14px rgba(91,141,170,0.45);
+  color: #fff;
+}
+.kira-sidebar .kira-list-item.true i {
+  color: #fff;
+}
+.kira-sidebar .kira-list-item i {
+  color: #8a9bb5;
+}
+.kira-sidebar .kira-social a {
+  color: #8a9bb5;
+}
+.kira-sidebar .kira-widget-wrap {
+  background-color: #1a2a3a;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+}
+.kira-sidebar .kira-widget-wrap .kira-widget-title {
+  color: #5b8daa;
+}
+.kira-sidebar .kira-widget-wrap .kira-widget ul li a {
+  color: #8a9bb5;
+}
+.kira-sidebar .kira-widget-wrap .category-list-count,
+.kira-sidebar .kira-widget-wrap .archive-list-count {
+  background-color: rgba(91,141,170,0.15);
+  color: #5b8daa;
+}
+.kira-sidebar .kira-copyright {
+  color: #6a7d95;
+}
+.kira-sidebar .kira-copyright a {
+  color: #5b8daa;
+}
+.kira-main-content article {
+  color: #c8d6e5;
+}
+.kira-main-content article h1,
+.kira-main-content article h2,
+.kira-main-content article h3,
+.kira-main-content article h4,
+.kira-main-content article h5,
+.kira-main-content article h6 {
+  color: #e8edf2;
+}
+.kira-main-content article h2::before {
+  border-bottom-color: #2a3a50;
+}
+.kira-main-content article blockquote {
+  background: #1a2e42;
+  color: #a0b5c8;
+  border-color: #2a4058;
+}
+.kira-main-content article blockquote::before,
+.kira-main-content article blockquote::after {
+  color: #5a7d95;
+}
+.kira-main-content article code {
+  background: #162433;
+  color: #5b8daa;
+}
+.kira-main-content article hr {
+  border-top-color: #2a3a50;
+}
+.kira-main-content article > table {
+  color: #a0b5c8;
+}
+.kira-main-content article > table thead {
+  border-bottom-color: #2a3a50;
+  background-color: #1a2e42;
+}
+.kira-main-content article > table thead tr {
+  background-color: #1a2e42;
+}
+.kira-main-content article > table th,
+.kira-main-content article > table td {
+  border-color: #2a3a50;
+}
+.kira-main-content article > table tr {
+  background-color: #243040;
+}
+.kira-main-content article > table tr:nth-child(2n) {
+  background-color: #1e3045;
+}
+.kira-main-content article ul li::after {
+  background: rgba(91,141,170,0.2);
+}
+.kira-main-content article ul li::before {
+  border-color: #243040;
+}
+.kira-main-content article > ol > li::before {
+  background-color: rgba(91,141,170,0.15);
+  color: #5b8daa;
+}
+.kira-post .kira-post-cover {
+  background-color: #1a2e42;
+}
+.kira-post .kira-post-copyright {
+  color: #b0c4d8;
+  background-color: #1a2e42;
+}
+.kira-post .kira-post-copyright a {
+  color: #5b8daa;
+}
+.kira-post .kira-post-nav {
+  background-color: #243040;
+}
+.kira-post .kira-post-footer {
+  background-color: #1a2e42;
+}
+.kira-right-column {
+  width: 200px;
+}
+.kira-right-column .kira-backtotop {
+  color: #8a9bb5;
+  background-color: rgba(30,45,61,0.7);
+}
+.kira-right-column .kira-backtotop:hover {
+  background-color: rgba(30,45,61,0.95);
+}
+.kira-right-column .kira-right-widget {
+  background: #1e2d3d;
+  border-radius: 13px;
+  margin: 10px;
+  padding: 16px;
+  color: #8a9bb5;
+}
+.kira-right-column .kira-right-widget h4 {
+  color: #5b8daa;
+  font-size: 1em;
+  margin: 0 0 10px;
+}
+.kira-right-column .kira-right-widget a {
+  color: #8a9bb5;
+}
+.kira-right-column .kira-right-widget a:hover {
+  color: #5b8daa;
+}
+.kira-right-column .kira-right-widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.kira-right-column .kira-right-widget ul li {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  font-size: 0.9em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.kira-right-column .kira-right-widget ul li:last-child {
+  border-bottom: none;
+}
+.kira-archives .archive-item .archive-date {
+  color: #8a9bb5;
+}
+.kira-archives .categories a {
+  background: #1e2d3d;
+  color: #8a9bb5;
+}
+.kira-archives .categories a:hover {
+  background: #254058;
+  color: #c8d6e5;
+}
+.kira-friends .kira-friend-card {
+  background: #1e2d3d;
+  color: #c8d6e5;
+}
+.kira-friends .kira-friend-card a {
+  color: #c8d6e5;
+}
+.kira-friends .kira-friend-card:hover {
+  background: #254058;
+}
+.kira-posts .kira-post {
+  animation: kira-stagger-fade 0.5s ease backwards;
+}
+.kira-posts .kira-post:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.kira-posts .kira-post:nth-child(2) {
+  animation-delay: 0.12s;
+}
+.kira-posts .kira-post:nth-child(3) {
+  animation-delay: 0.19s;
+}
+.kira-posts .kira-post:nth-child(4) {
+  animation-delay: 0.26s;
+}
+.kira-posts .kira-post:nth-child(5) {
+  animation-delay: 0.33s;
+}
+.kira-posts .kira-post:nth-child(n+6) {
+  animation-delay: 0.38s;
+}
+.kira-sidebar .kira-widget-wrap {
+  animation: kira-stagger-fade 0.45s ease backwards;
+}
+.kira-sidebar .kira-widget-wrap:nth-child(1) {
+  animation-delay: 0.15s;
+}
+.kira-sidebar .kira-widget-wrap:nth-child(2) {
+  animation-delay: 0.22s;
+}
+.kira-sidebar .kira-widget-wrap:nth-child(3) {
+  animation-delay: 0.29s;
+}
+.kira-sidebar .kira-widget-wrap:nth-child(4) {
+  animation-delay: 0.36s;
+}
+@media (max-width: 1000px) {
+  body .kira-header {
+    background: #1e2d3d;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  }
+  body .kira-header a {
+    color: #8a9bb5;
+  }
+  body .kira-header a:hover {
+    background-color: rgba(255,255,255,0.06);
+  }
+  body .kira-body .kira-sidebar {
+    background-color: #1e2d3d;
+  }
+  body .kira-body .kira-sidebar.show {
+    background-color: #1e2d3d;
+  }
+}
+@media (max-width: 1180px) {
+  .kira-right-column .kira-backtotop {
+    background-color: rgba(30,45,61,0.9);
+  }
+}
+@-moz-keyframes kira-stagger-fade {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes kira-stagger-fade {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-o-keyframes kira-stagger-fade {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes kira-stagger-fade {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
