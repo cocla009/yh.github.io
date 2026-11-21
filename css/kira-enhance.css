@@ -29,6 +29,12 @@ article figure.highlight::after {
   box-shadow: 18px 0 #ffbd2e, 36px 0 #27c93f;
   z-index: 2;
 }
+mjx-container[jax="SVG"][display="true"] {
+  max-width: 100% !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 4px;
+}
 .kira-article figure.highlight .kira-code-lang,
 article figure.highlight .kira-code-lang {
   position: absolute;
